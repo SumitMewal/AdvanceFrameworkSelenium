@@ -15,7 +15,7 @@ This project is ideal for learning, practice, and real-time automation understan
 
 🎯 Purpose of This Project
 
-This framework is created for learning and practice, inspired by YouTube Automation Tutorials (@TestingMiniBytes) @https://github.com/amuthansakthivel/amuthansakthivel, and enhanced with additional features to make it more industry-ready.
+This framework is created for learning and practice, inspired by YouTube Automation Tutorials (@TestingMiniBytes) @https://github.com/amuthansakthivel/amuthansakthivel, and try to adapt all and implement in the industry.
 
 It is suitable for:
 
