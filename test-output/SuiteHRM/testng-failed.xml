@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteHRM]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="ParellelTest(failed)">
+    <classes>
+      <class name="ssm.hrm.tests.LoginTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="guestLogin"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ssm.hrm.tests.LoginTest -->
+      <class name="ssm.hrm.tests.HomeTest">
+        <methods>
+          <include name="loginAdmin"/>
+          <include name="quitBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ssm.hrm.tests.HomeTest -->
+    </classes>
+  </test> <!-- ParellelTest(failed) -->
+</suite> <!-- Failed suite [SuiteHRM] -->
