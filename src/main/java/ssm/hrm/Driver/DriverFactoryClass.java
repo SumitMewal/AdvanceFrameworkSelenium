@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import ssm.hrm.DriverManager.DriverMangerClass;
+import ssm.hrm.EnumStore.ConfigEnum;
+import ssm.hrm.FrameworkUtils.PropertyUtil;
 
 public final class DriverFactoryClass {
 
@@ -26,6 +28,8 @@ public final class DriverFactoryClass {
 			WebDriver driver = new ChromeDriver();; // This should not be static because of this it is giving the issue of null driver
 			DriverMangerClass.setDriver(driver);
 			DriverMangerClass.getDriver().manage().window().maximize();
+			DriverMangerClass.getDriver().get(PropertyUtil.getValue(ConfigEnum.URL));
+			
 	}
 
 	public static void tearDown()

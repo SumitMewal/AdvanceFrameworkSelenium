@@ -1,16 +1,19 @@
 package ssm.hrm.tests;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import org.testng.annotations.Test;
 
-import ssm.hrm.DriverManager.DriverMangerClass;
+import ssm.hrm.PageObject.LoginPageObject;
 
-public class LoginTest extends BaseTest {
+public final class LoginTest extends BaseTest {
 
 	@Test
-	public void guestLogin()
+	public void loginValidUser()
 	{
-		DriverMangerClass.getDriver().get("https://www.google.com/?zx=1764237865905&no_sw_cr=1");
-		System.out.println("Login Test");
+	LoginPageObject lpo = new LoginPageObject();
+	String userName = lpo.enterUsername("Admin").enterPassword("admin123").clickLogin().getUserName();
+	assertThat(userName).isNotEmpty().isNotNull().isInstanceOfAny(String.class);
 	}
 
 }

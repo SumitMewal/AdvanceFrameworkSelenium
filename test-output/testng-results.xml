@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-27T17:45:14 IST" name="Suite" finished-at="2025-11-27T17:45:21 IST" duration-ms="7244">
+  <suite started-at="2025-12-09T13:27:11 IST" name="Suite" finished-at="2025-12-09T13:27:24 IST" duration-ms="13126">
     <groups>
     </groups>
-    <test started-at="2025-11-27T17:45:14 IST" name="Test" finished-at="2025-11-27T17:45:21 IST" duration-ms="7244">
-      <class name="ssm.hrm.tests.HomeTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.HomeTest@43c1b556]" started-at="2025-11-27T17:45:14 IST" name="launchBrowser" finished-at="2025-11-27T17:45:17 IST" duration-ms="3188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="loginAdmin()[pri:0, instance:ssm.hrm.tests.HomeTest@43c1b556]" started-at="2025-11-27T17:45:17 IST" name="loginAdmin" finished-at="2025-11-27T17:45:21 IST" duration-ms="3690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAdmin -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.HomeTest@43c1b556]" started-at="2025-11-27T17:45:21 IST" name="quitBrowser" finished-at="2025-11-27T17:45:21 IST" duration-ms="253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitBrowser -->
-      </class> <!-- ssm.hrm.tests.HomeTest -->
+    <test started-at="2025-12-09T13:27:11 IST" name="Test" finished-at="2025-12-09T13:27:24 IST" duration-ms="13126">
       <class name="ssm.hrm.tests.LoginTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-11-27T17:45:14 IST" name="launchBrowser" finished-at="2025-11-27T17:45:17 IST" duration-ms="3195" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-12-09T13:27:11 IST" name="launchBrowser" finished-at="2025-12-09T13:27:19 IST" duration-ms="7472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="guestLogin()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-11-27T17:45:17 IST" name="guestLogin" finished-at="2025-11-27T17:45:19 IST" duration-ms="1526" status="PASS">
+        <test-method signature="loginValidUser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-12-09T13:27:19 IST" name="loginValidUser" finished-at="2025-12-09T13:27:24 IST" duration-ms="5184" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- guestLogin -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-11-27T17:45:19 IST" name="quitBrowser" finished-at="2025-11-27T17:45:19 IST" duration-ms="278" status="PASS">
+        </test-method> <!-- loginValidUser -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-12-09T13:27:24 IST" name="quitBrowser" finished-at="2025-12-09T13:27:24 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

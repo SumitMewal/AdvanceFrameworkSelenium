@@ -5,18 +5,11 @@
     <classes>
       <class name="ssm.hrm.tests.LoginTest">
         <methods>
+          <include name="loginValidUser"/>
           <include name="quitBrowser"/>
-          <include name="guestLogin"/>
           <include name="launchBrowser"/>
         </methods>
       </class> <!-- ssm.hrm.tests.LoginTest -->
-      <class name="ssm.hrm.tests.HomeTest">
-        <methods>
-          <include name="loginAdmin"/>
-          <include name="quitBrowser"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- ssm.hrm.tests.HomeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
