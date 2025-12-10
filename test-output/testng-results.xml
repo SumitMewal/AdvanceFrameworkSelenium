@@ -1,25 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-09T13:27:11 IST" name="Suite" finished-at="2025-12-09T13:27:24 IST" duration-ms="13126">
+  <suite started-at="2025-12-10T22:20:59 IST" name="Default suite" finished-at="2025-12-10T22:21:31 IST" duration-ms="32078">
     <groups>
     </groups>
-    <test started-at="2025-12-09T13:27:11 IST" name="Test" finished-at="2025-12-09T13:27:24 IST" duration-ms="13126">
+    <test started-at="2025-12-10T22:20:59 IST" name="Default test" finished-at="2025-12-10T22:21:31 IST" duration-ms="32078">
       <class name="ssm.hrm.tests.LoginTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-12-09T13:27:11 IST" name="launchBrowser" finished-at="2025-12-09T13:27:19 IST" duration-ms="7472" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:01 IST" name="launchBrowser" finished-at="2025-12-10T22:21:06 IST" duration-ms="5779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="loginValidUser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-12-09T13:27:19 IST" name="loginValidUser" finished-at="2025-12-09T13:27:24 IST" duration-ms="5184" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:01 IST" name="launchBrowser" finished-at="2025-12-10T22:21:06 IST" duration-ms="5870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:01 IST" name="launchBrowser" finished-at="2025-12-10T22:21:09 IST" duration-ms="8208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:01 IST" name="launchBrowser" finished-at="2025-12-10T22:21:09 IST" duration-ms="8105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginInvalidUser(java.util.HashMap)[pri:1, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:06 IST" name="loginInvalidUser" data-provider="invalidData" finished-at="2025-12-10T22:21:11 IST" duration-ms="4591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=    , Password=   }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUser -->
+        <test-method signature="loginInvalidUser(java.util.HashMap)[pri:1, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:06 IST" name="loginInvalidUser" data-provider="invalidData" finished-at="2025-12-10T22:21:11 IST" duration-ms="4810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=test, Password=admin123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUser -->
+        <test-method signature="loginInvalidUser(java.util.HashMap)[pri:1, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:09 IST" name="loginInvalidUser" data-provider="invalidData" finished-at="2025-12-10T22:21:10 IST" duration-ms="1399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=Admin, Password=test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUser -->
+        <test-method signature="loginInvalidUser(java.util.HashMap)[pri:1, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:09 IST" name="loginInvalidUser" data-provider="invalidData" finished-at="2025-12-10T22:21:10 IST" duration-ms="1488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=test, Password=test}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUser -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:10 IST" name="quitBrowser" finished-at="2025-12-10T22:21:10 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:10 IST" name="quitBrowser" finished-at="2025-12-10T22:21:11 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:11 IST" name="quitBrowser" finished-at="2025-12-10T22:21:11 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:11 IST" name="quitBrowser" finished-at="2025-12-10T22:21:11 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:11 IST" name="launchBrowser" finished-at="2025-12-10T22:21:25 IST" duration-ms="13479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginValidUser()[pri:2, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:25 IST" name="loginValidUser" finished-at="2025-12-10T22:21:30 IST" duration-ms="5231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginValidUser -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@3bf7ca37]" started-at="2025-12-09T13:27:24 IST" name="quitBrowser" finished-at="2025-12-09T13:27:24 IST" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ssm.hrm.tests.LoginTest@b3ca52e]" started-at="2025-12-10T22:21:30 IST" name="quitBrowser" finished-at="2025-12-10T22:21:31 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- ssm.hrm.tests.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
