@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import ssm.hrm.DriverManager.DriverMangerClass;
+import ssm.hrm.Driver.DriverMangerClass;
 import ssm.hrm.EnumStore.WaitEnum;
 import ssm.hrm.FrameworkConstants.FrameWorkConstantClass;
 

@@ -5,7 +5,6 @@ import java.util.Objects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import ssm.hrm.DriverManager.DriverMangerClass;
 import ssm.hrm.EnumStore.ConfigEnum;
 import ssm.hrm.FrameworkUtils.PropertyUtil;
 

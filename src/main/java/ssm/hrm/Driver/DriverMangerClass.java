@@ -1,4 +1,4 @@
-package ssm.hrm.DriverManager;
+package ssm.hrm.Driver;
 
 import org.openqa.selenium.WebDriver;
 
